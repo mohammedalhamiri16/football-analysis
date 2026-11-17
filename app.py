@@ -29,11 +29,11 @@ col2.metric("Matches", matches)  # big number card in the second column
 col3.metric("Goals per match", round(goals / matches, 2))  # goals divided by matches, rounded to 2 decimals
 import matplotlib.pyplot as plt # load the matplotlib library for charts
 fig = plt.figure() # create an empty figure to draw the chart on
-plt.bar(df["name"], df["goals"]) # draw one bar per player: names on x axis, goals on y axis
+plt.bar(league_df["name"], league_df["goals"]) # draw one bar per player: names on x axis, goals on y axis
 plt.title("goals per player") # title shown above the chart
 st.pyplot(fig) # show the chart on the web page
 fig2 = plt.figure() # create a second empty figure for the scatter chart
-plt.scatter(df["matches"], df["goals"]) # one dot per player: matches on x axis, goals on y axis
+plt.scatter(league_df["matches"], league_df["goals"]) # one dot per player: matches on x axis, goals on y axis
 plt.title("goals vs matches") # title shown above the chart
 plt.xlabel("matches") # name of the horizontal axis
 plt.ylabel("goals") # name of the vertical axis
