@@ -9,3 +9,4 @@ Learning Python by analyzing football stats
 - Day 5: Read players' goals from a file, sorted them, and calculated the total goals for each team
 - Day 6: Plotted player goals as a bar chart, made a scatter plot of goals vs matches, added titles and labels, and saved the scatter plot as an image
 - Day 7: Set up Python and Streamlit on my Mac and built a web app that shows a player table, a player selector, a bar chart and a scatter plot
+- Day 8: updated data to 2025/26 (8 players), league filter in the sidebar, club colour box, metric cards(goals, matches, goals per match)
