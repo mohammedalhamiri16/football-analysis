@@ -1,5 +1,6 @@
 import streamlit as st # load streamlit library and call it st
 st.title("Football Analysis") # show a big title on the web page
+st.caption("Data from public sources (league stats only, season 2025/26; Messi: MLS 2025). It may contain small errors.") # small grey note under the title
 import pandas as pd # load the pandas library and call it pd
 df =pd.read_csv("players.csv") # read the players file into a table called df
 league_choice = st.sidebar.selectbox("choose a league", df["league"].unique()) # league list in the sidebar
