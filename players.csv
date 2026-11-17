@@ -1,4 +1,9 @@
-name,goals,matches
-messi,91,34
-lamin,62,32
-mbappe,47,35
+name,club,position,league,season,goals,matches
+messi,Inter Miami,forward,MLS,2025,29,28
+yamal,Barcelona,forward,La Liga,2025/26,16,28
+mbappe,Real Madrid,forward,La Liga,2025/26,25,31
+haaland,Man City,forward,Premier League,2025/26,27,35
+kane,Bayern Munich,forward,Bundesliga,2025/26,36,31
+olise,Bayern Munich,midfielder,Bundesliga,2025/26,15,32
+lautaro,Inter,forward,Serie A,2025/26,17,30
+dembele,PSG,forward,Ligue 1,2025/26,10,22
